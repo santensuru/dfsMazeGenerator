@@ -40,7 +40,7 @@ int init()
                 n->dirs = 15; // Assume that all directions can be explored (4 youngest bits set)
                 n->c = ' ';
             }
-            else n->c = '+'; // Add walls between nodes
+            else n->c = '@'; // Add walls between nodes
         }
     }
     return 0;
